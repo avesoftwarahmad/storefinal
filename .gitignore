@@ -1,0 +1,65 @@
+# Dependencies
+node_modules/
+apps/*/node_modules/
+apps/storefront/node_modules/
+apps/api/node_modules/
+
+# Build outputs
+dist/
+build/
+apps/storefront/dist/
+apps/api/dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+config.env
+apps/api/config.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+apps/ai-assistant/__pycache__/
+
+# Misc
+.vercel
+*.tsbuildinfo
+.turbo
+

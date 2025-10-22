@@ -1,0 +1,122 @@
+[
+  {
+    "id": "Policy1.1",
+    "question": "What is your return policy?",
+    "answer": "Items can be returned within 30 days of purchase with original receipt. Refunds are processed within 5-7 business days.",
+    "category": "returns",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Policy1.2",
+    "question": "Can I exchange an item instead of returning?",
+    "answer": "Yes, exchanges are allowed for items in original condition. Choose the exchange option when initiating a return.",
+    "category": "returns",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Policy1.3",
+    "question": "Do I get a full refund for returned items?",
+    "answer": "Yes, full refunds are issued for returned items in original condition. Shipping fees are non-refundable unless defective.",
+    "category": "returns",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Policy1.4",
+    "question": "Can I return sale or clearance items?",
+    "answer": "Sale and clearance items are final sale and cannot be returned unless defective.",
+    "category": "returns",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Shipping2.1",
+    "question": "What shipping options are available?",
+    "answer": "We offer Standard (5-7 days, $5.99), Express (2-3 days, $12.99), and Overnight ($24.99) shipping. Free shipping for orders over $50.",
+    "category": "shipping",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Shipping2.2",
+    "question": "Can I track my order?",
+    "answer": "Yes, all orders provide a tracking number via email once shipped. Use it to track your delivery online.",
+    "category": "shipping",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Shipping2.3",
+    "question": "What if my order is late?",
+    "answer": "If your order is delayed beyond the estimated delivery date, contact customer support for assistance and possible compensation.",
+    "category": "shipping",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Shipping2.4",
+    "question": "Do you ship internationally?",
+    "answer": "Yes, we ship to selected countries. International shipping costs and delivery times vary. Customs fees may apply.",
+    "category": "shipping",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Warranty3.1",
+    "question": "Do electronics have a warranty?",
+    "answer": "All electronics come with a 1-year manufacturer warranty covering defects. Accidental damage is not included.",
+    "category": "warranty",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Warranty3.2",
+    "question": "How do I claim a warranty?",
+    "answer": "To claim a warranty, contact our support with your order ID and a description of the defect. We will guide you through the replacement process.",
+    "category": "warranty",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Warranty3.3",
+    "question": "Are accessories covered under warranty?",
+    "answer": "Accessories are covered only if specified in the product description. Standard wear and tear are not covered.",
+    "category": "warranty",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Privacy4.1",
+    "question": "How is my personal data handled?",
+    "answer": "Customer information is stored securely and never shared with third parties. Review our Privacy Policy for complete details.",
+    "category": "privacy",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Privacy4.2",
+    "question": "Can I request deletion of my data?",
+    "answer": "Yes, you may request deletion of your personal data by contacting support. We will comply within 30 days where legally permitted.",
+    "category": "privacy",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Security5.1",
+    "question": "How do you protect payment information?",
+    "answer": "All transactions are encrypted with SSL/TLS. Payment data is securely processed and not stored on our servers.",
+    "category": "security",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Security5.2",
+    "question": "What should I do if I notice unauthorized activity?",
+    "answer": "Immediately contact customer support and your payment provider to secure your account and report unauthorized transactions.",
+    "category": "security",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Payment6.1",
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and Apple Pay.",
+    "category": "payment",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  },
+  {
+    "id": "Payment6.2",
+    "question": "Is it safe to use my credit card on your site?",
+    "answer": "Yes, all transactions are secured with industry-standard SSL encryption. We never store your full credit card details.",
+    "category": "security",
+    "lastUpdated": "2025-10-01T00:00:00Z"
+  }
+]
+
