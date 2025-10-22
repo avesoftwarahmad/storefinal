@@ -1,7 +1,7 @@
 services:
-  # Unified Backend + Frontend Service
+  # Ahmad Store Backend API
   - type: web
-    name: shopmart-unified
+    name: ahmad-store-api
     env: node
     region: frankfurt
     plan: free
@@ -10,33 +10,35 @@ services:
     startCommand: node src/server.js
     healthCheckPath: /api/health
     envVars:
-      - key: MONGODB_URI
-        sync: false
-      - key: NODE_VERSION
-        value: "20"
       - key: NODE_ENV
         value: production
+      - key: NODE_VERSION
+        value: "20"
+      - key: MONGODB_URI
+        sync: false
       - key: CORS_ORIGINS
         sync: false
       - key: AUTO_SEED
         value: "true"
+      - key: HUGGINGFACE_TOKEN
+        sync: false
+      - key: LLM_ENDPOINT
+        sync: false
 
-  # LLM Service (Python FastAPI)
-  - type: web
-    name: llm-service
-    env: python
-    region: frankfurt
-    plan: free
-    rootDir: apps/llm-service
-    buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
-    healthCheckPath: /health
-    envVars:
-      - key: PYTHON_VERSION
-        value: "3.11.0"
-      - key: HF_TOKEN
-        sync: false
-      - key: REMOTE_MODEL
-        value: "mistralai/Mistral-7B-Instruct-v0.3"
-      - key: BACKEND_URL
-        sync: false
+  # Optional: LLM Service (if you want to deploy the AI assistant separately)
+  # - type: web
+  #   name: ahmad-store-llm
+  #   env: python
+  #   region: frankfurt
+  #   plan: free
+  #   rootDir: apps/ai-assistant
+  #   buildCommand: pip install -r requirements.txt
+  #   startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+  #   healthCheckPath: /health
+  #   envVars:
+  #     - key: PYTHON_VERSION
+  #       value: "3.11.0"
+  #     - key: HUGGINGFACE_TOKEN
+  #       sync: false
+  #     - key: HF_MODEL
+  #       value: "mistralai/Mistral-7B-Instruct-v0.3"
